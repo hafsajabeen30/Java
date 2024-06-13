@@ -1,9 +1,9 @@
 public class CaptureRook {
-    String[] arr1;
-    String[] arr2;
+//    String[] arr1 = new String [2];
+//    String[] arr2 = new String[2];
     public CaptureRook() {
     }
-    public boolean canCapture(String[] arr1, String[] arr2){
+     boolean canCapture(String[] arr1, String[] arr2){
         if(arr1[0].equals(arr2[0]) || arr1[1].equals(arr2[1])){
             return true;
         }
