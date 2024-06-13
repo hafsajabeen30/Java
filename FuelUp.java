@@ -18,3 +18,4 @@ public class FuelUp {
         System.out.println("The given fuel is " + F.calculateFuel() );
     }
 }
+
