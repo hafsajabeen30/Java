@@ -1,6 +1,7 @@
 public class Cars {
 
     private static int totalCars= 0;
+    public static int maxCars = 10;
     String make;
     String model;
     int year;
@@ -30,6 +31,7 @@ public class Cars {
         Cars yourCar = new Cars("Nisan", "Mocco", 2013);
         System.out.println(yourCar.printInfo());
         System.out.println(Cars.getTotalCars());
+        System.out.println(Cars.maxCars);
     }
 
 }
