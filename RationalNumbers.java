@@ -1,5 +1,3 @@
-package Rational;
-
 public class RationalNumbers {
     int num;
     int den;
@@ -59,4 +57,3 @@ public class RationalNumbers {
     }
 
 }
-
