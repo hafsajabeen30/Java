@@ -8,7 +8,7 @@ public class SingleLL {
         singlly.push(3);
         singlly.push(4);
         singlly.push(5);
-        singlly.delete(4);
+        singlly.delete(5);
         Node<Integer> result = singlly.search(3);
         if(result != null){
             System.out.println("The given node is: " + result);
@@ -63,12 +63,12 @@ class List <T> {
     }
 
     public void delete(T id){
+        Node<T> th = head;
         if (id == head.id){
             head = head.next;
         }
         else {
-            Node<T> th = head;
-            while(th != null){
+            while(th.next != null){
                 if(th.next.id == id){
                     th.next = th.next.next;
                     break;
