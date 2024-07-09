@@ -5,8 +5,12 @@ public class Cat implements Printable{
     public int age;
     public Cat() {}
 
-    @Override
     public void print() {
         System.out.println("Meow!");
+    }
+
+    @Override
+    public void print(String suffix) {
+
     }
 }
