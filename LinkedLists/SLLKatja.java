@@ -116,5 +116,13 @@ public class SLLKatja <T extends Comparable<T>> {
         }
     }
 
-
+/* Function to print linked list */
+//void printlist(node head)
+//{
+//    while (head != null)
+//    {
+//        System.out.print(head.val + " ");
+//        head = head.next;
+//    }
+//}
 
